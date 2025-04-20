@@ -1,0 +1,9 @@
+dictionary1= {'Alice': 69, 'Max':73, 'John': 84, 'Specter':96, 'Pranali': 0,'Mihika': 77,'Atharva:':44}
+
+Student_name= input('Enter the Student\'s Name:')
+
+if Student_name in dictionary1:
+
+    print( '{}\'s marks:'.format(Student_name), dictionary1.get(Student_name))
+else:
+    print('Student not found')
